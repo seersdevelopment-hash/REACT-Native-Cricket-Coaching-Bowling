@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Bowler Speed",
+    "slug": "bowler-speed-mvp",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Bowler Speed uses the camera to record cricket deliveries for speed estimation."
+      }
+    },
+    "android": {
+      "package": "com.bowlerspeed.mvp",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Bowler Speed uses the camera to record deliveries for speed estimation."
+        }
+      ]
+    ]
+  }
+}
